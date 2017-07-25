@@ -1,6 +1,6 @@
 {
   "name": "wikom-navbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "module": "src/index.js",
   "repository": "git@github.com:Wikom/wikom-navbar.git",
@@ -12,11 +12,7 @@
     "dist"
   ],
   "dependencies": {
-    "find-in-object": "https://github.com/Wikom/find-in-object.git",
-    "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-redux": "^5.0.5",
-    "react-router-redux": "^4.0.8"
+    "find-in-object": "https://github.com/Wikom/find-in-object.git"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -34,7 +30,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "react-router-redux": "^4.0.8"
   },
   "scripts": {
     "start": "npm run babel && npm run webpack",
