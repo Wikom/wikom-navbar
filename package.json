@@ -1,17 +1,19 @@
 {
-  "name": "wikom-navbar",
-  "version": "1.1.0",
+  "name": "@wikom/wikom-navbar",
+  "version": "1.2.0",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "repository": "git@github.com:Wikom/wikom-navbar.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Wikom/wikom-navbar.git"
+  },
   "author": "Marvin Ruppelt",
   "license": "MIT",
   "files": [
-    "lib",
-    "src"
+    "lib"
   ],
   "dependencies": {
-    "find-in-object": "https://github.com/Wikom/find-in-object.git#v1.2.0",
+    "@wikom/find-in-object": "^1.3.3",
     "react-router-redux": "^5.0.0-alpha.9"
   },
   "devDependencies": {
@@ -30,5 +32,13 @@
   "scripts": {
     "start": "npm run babel",
     "babel": "babel src --out-dir lib"
+  },
+  "description": "wikom-navbar provides a simple way for using **bootstrap**-based navbar, optimized for `react-redux` usage.",
+  "bugs": {
+    "url": "https://github.com/Wikom/wikom-navbar/issues"
+  },
+  "homepage": "https://github.com/Wikom/wikom-navbar#readme",
+  "directories": {
+    "lib": "lib"
   }
 }

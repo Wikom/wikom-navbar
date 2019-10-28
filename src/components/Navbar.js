@@ -4,7 +4,7 @@
 
 import React from 'react'
 import {connect} from 'react-redux'
-import findInObject from 'find-in-object'
+import findInObject from '@wikom/find-in-object'
 import PropTypes from 'prop-types'
 import {showNavbar, hideNavbar} from '../actions/navbarActions'
 
